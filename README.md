@@ -61,6 +61,11 @@ Use the following command to run the training script:
 
 ```python training.py --trainig_size= --gpu= --num_iter= --patch_size= --dataset= --modality= --logdir= --output= --val_portion=```
 
+```
+python training.py --trainig_size 50 --gpu 0 --num_iter 1000 --patch_size 8 --dataset F:\allproj\Brain3DVessel\WPSS\dataset --modality epc --logdir output/log --output output/img 
+
+```
+
 |configurations|meaning|default|
 |---|---|---|
 |--training_size|the number of training data to use|None|
